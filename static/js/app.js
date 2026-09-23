@@ -1,0 +1,1 @@
+let r=document.documentElement;r.dataset.theme=localStorage.theme||'light';theme?.addEventListener('click',()=>{r.dataset.theme=r.dataset.theme==='dark'?'light':'dark';localStorage.theme=r.dataset.theme});menu?.addEventListener('click',()=>document.querySelector('.side').classList.toggle('open'));
